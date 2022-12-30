@@ -15,9 +15,10 @@ Notre projet "Voyage A.O.B." est une application cmd qui est destinée à gérer
 
 
 Conditions d'utilisation à respecter :
--Pour remplir les champs avec un paragraphe, s'il vous plaît utilisez le caractère'_' au lieu de l'espace ' ' pour ne pas avoir de problèmes en cours d'exécution du programme.
-N.B: On a essayer d'utiliser la fonction "gets()" et "fgets()" mais on a eu un probleme d'execution.  
 
+-Pour remplir les champs avec un paragraphe, s'il vous plaît utilisez le caractère'_' au lieu de l'espace ' ' pour ne pas avoir de problèmes en cours d'exécution du programme.
+
+N.B: On a essayer d'utiliser la fonction "gets()" et "fgets()" mais on a eu un probleme d'execution.  
 
 -Pour entrer les champs contenant une date, s'il vous plaît insérez la date sous ce format: jj/mm/aaaa.
 
