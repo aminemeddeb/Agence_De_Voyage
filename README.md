@@ -13,6 +13,8 @@ Notre projet "Voyage A.O.B." est une application cmd qui est destinée à gérer
 
 5- Recherche des voyages disponibles selon des dates précises.
 
+6- Détail sur l'applications.
+
 
 ⚠️ Conditions d'utilisation à respecter : 
 
