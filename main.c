@@ -172,7 +172,7 @@ int main()
     printf(" \\    /   |        |     \\ /     /___\\    |   _____    |______   *   /___\\   |        |  |_____|__            \n");
     printf("  \\  /    |        |      |     /     \\   |        |   |         *  /     \\  |        |  |        | \n");
     printf("   \\/     |________|      |    /       \\  |_______ |   |_______  * /       \\ |________|  |________|  \n");
-    printf("------------------------------------------------------------------------\n(1) Ajouter un voyage. \n(2) Afficher la description d un voyage. \n(3) Supprimer un voyage.\n(4) Modifier un voyage.\n(5) Recherche des voyages disponibles selon des dates precises.\n(6) Details. \n(-) Autre caractere pour quitter.\n------------------------------------------------------------------------\n");    printf("Entrer votre choix. ");
+    printf("------------------------------------------------------------------------\n(1) Ajouter un voyage. \n(2) Afficher la description d un voyage. \n(3) Supprimer un voyage.\n(4) Modifier un voyage.\n(5) Recherche des voyages disponibles selon des dates precises.\n(6) Details sur l'application. \n(-) Autre caractere pour quitter.\n------------------------------------------------------------------------\n");    printf("Entrer votre choix. ");
     scanf("%i",&choix);
     while((choix>0)&&(choix<7))
 
@@ -218,7 +218,7 @@ int main()
         break;
 
         }
-        printf("------------------------------------------------------------------------\n(1) Ajouter un voyage. \n(2) Afficher la description d un voyage. \n(3) Supprimer un voyage.\n(4) Modifier un voyage.\n(5) Recherche des voyages disponibles selon des dates precises.\n(6) Details. \n(-) Autre caractere pour quitter.\n------------------------------------------------------------------------\n");
+        printf("------------------------------------------------------------------------\n(1) Ajouter un voyage. \n(2) Afficher la description d un voyage. \n(3) Supprimer un voyage.\n(4) Modifier un voyage.\n(5) Recherche des voyages disponibles selon des dates precises.\n(6) Details sur l'application. \n(-) Autre caractere pour quitter.\n------------------------------------------------------------------------\n");
         printf("Entrer votre choix. ");
         scanf("%i",&choix);
     }
