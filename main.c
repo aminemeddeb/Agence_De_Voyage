@@ -157,6 +157,7 @@ void modifier(struct voy tab[100],int iden,int n){
 }
 
 
+
 int main()
 {
     int n;
@@ -171,9 +172,9 @@ int main()
     printf(" \\    /   |        |     \\ /     /___\\    |   _____    |______   *   /___\\   |        |  |_____|__            \n");
     printf("  \\  /    |        |      |     /     \\   |        |   |         *  /     \\  |        |  |        | \n");
     printf("   \\/     |________|      |    /       \\  |_______ |   |_______  * /       \\ |________|  |________|  \n");
-    printf("------------------------------------------------------------------------\n(1) Ajouter un voyage. \n(2) Afficher la description d un voyage. \n(3) Supprimer un voyage.\n(4) Modifier un voyage.\n(5) Recherche des voyages disponibles selon des dates precises.\n(-) Autre caractere pour quitter.\n------------------------------------------------------------------------\n");    printf("Entrer votre choix. ");
+    printf("------------------------------------------------------------------------\n(1) Ajouter un voyage. \n(2) Afficher la description d un voyage. \n(3) Supprimer un voyage.\n(4) Modifier un voyage.\n(5) Recherche des voyages disponibles selon des dates precises.\n(6) Details. \n(-) Autre caractere pour quitter.\n------------------------------------------------------------------------\n");    printf("Entrer votre choix. ");
     scanf("%i",&choix);
-    while((choix>0)&&(choix<6))
+    while((choix>0)&&(choix<7))
 
     {   printf("\n");
         switch (choix){
@@ -211,8 +212,13 @@ int main()
 
         }
         break;
+        case 6:{
+            printf("Agence_De_Voyage\nNotre projet 'Voyage A.O.B.' est une application cmd qui est destinee a gerer une base de donnees d'une agence\n de voyages.\n\n'Voyage A.O.B.'offre plusieurs fonctionnalites citees ci-dessous:\n1- Ajouter un voyage.\n2- Afficher la description d’un voyage.\n3- Supprimer un voyage.\n4- Modifier un voyage.\n5- Recherche des voyages disponibles selon des dates precises.\n6- Details.\n Conditions d'utilisation a respecter :\n\n-Pour remplir les champs avec un paragraphe, s'il vous plait utilisez le caractere'_' au lieu de l'espace ' ' pour ne\npas avoir de problemes en cours d'execution du programme.\nN.B: On a essayer d'utiliser la fonction 'gets()' et 'fgets()' mais on a eu un probleme d'execution.\n-Pour entrer les champs contenant une date, s'il vous plat inserez la date sous ce format: jj/mm/aaaa.\n\nOn espere que votre experience en utilisant notre application, travaille avec beaucoup de passion et assiduite, soit agreable.\n\n");
         }
-        printf("------------------------------------------------------------------------\n(1) Ajouter un voyage. \n(2) Afficher la description d un voyage. \n(3) Supprimer un voyage.\n(4) Modifier un voyage.\n(5) Recherche des voyages disponibles selon des dates precises.\n(-) Autre caractere pour quitter.\n------------------------------------------------------------------------\n");
+        break;
+
+        }
+        printf("------------------------------------------------------------------------\n(1) Ajouter un voyage. \n(2) Afficher la description d un voyage. \n(3) Supprimer un voyage.\n(4) Modifier un voyage.\n(5) Recherche des voyages disponibles selon des dates precises.\n(6) Details. \n(-) Autre caractere pour quitter.\n------------------------------------------------------------------------\n");
         printf("Entrer votre choix. ");
         scanf("%i",&choix);
     }
